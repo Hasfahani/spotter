@@ -5,7 +5,6 @@ People get a green box, all other objects get a red one, each labeled with the
 class name and confidence. FPS and the number of people are shown in the top-left corner.
 
 ![Demo](demo.gif)
-<!-- TODO: record a short demo and save it as demo.gif in the repo root -->
 
 ## How it works
 
