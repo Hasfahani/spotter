@@ -218,3 +218,6 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# YOLO model weights (downloaded automatically, too big for git)
+*.pt
