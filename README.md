@@ -9,7 +9,7 @@ class name and confidence. FPS and the number of people are shown in the top-lef
 ## How it works
 
 1. OpenCV reads frames from the webcam in a loop.
-2. Each frame goes through the YOLO11 nano model (Ultralytics), which returns
+2. Each frame goes through the YOLO11 small model (Ultralytics), which returns
    bounding boxes, class names and confidence scores.
 3. OpenCV draws the boxes and labels, plus FPS and a people count, and shows the frame.
 
@@ -48,5 +48,5 @@ pip install ultralytics opencv-python
 python spotter.py
 ```
 
-The first run downloads the model weights (`yolo11n.pt`, about 5 MB).
+The first run downloads the model weights (`yolo11s.pt`, about 19 MB).
 Press **q** in the video window to quit.
